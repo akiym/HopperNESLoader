@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68C7B37B1971407D0067434B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C7B37A1971407D0067434B /* CoreFoundation.framework */; };
+		68C7B3811971407D0067434B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C7B37F1971407D0067434B /* InfoPlist.strings */; };
+		AD7495C71C6D4D600089C404 /* FRBNESLoader-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7495C41C6D4D600089C404 /* FRBNESLoader-Info.plist */; };
+		AD7495C81C6D4D600089C404 /* NESLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7495C61C6D4D600089C404 /* NESLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68C7B3771971407D0067434B /* NESLoader.hopperLoader */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESLoader.hopperLoader; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C7B37A1971407D0067434B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		68C7B3801971407D0067434B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD7495C21C6D4D510089C404 /* NESLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESLoader.h; sourceTree = "<group>"; };
+		AD7495C41C6D4D600089C404 /* FRBNESLoader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FRBNESLoader-Info.plist"; sourceTree = "<group>"; };
+		AD7495C61C6D4D600089C404 /* NESLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68C7B3741971407D0067434B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C7B37B1971407D0067434B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68C7B36E1971407D0067434B = {
+			isa = PBXGroup;
+			children = (
+				68C7B37C1971407D0067434B /* NESLoader */,
+				68C7B3791971407D0067434B /* Frameworks */,
+				68C7B3781971407D0067434B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68C7B3781971407D0067434B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C7B3771971407D0067434B /* NESLoader.hopperLoader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68C7B3791971407D0067434B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C7B37A1971407D0067434B /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68C7B37C1971407D0067434B /* NESLoader */ = {
+			isa = PBXGroup;
+			children = (
+				68C7B37D1971407D0067434B /* Supporting Files */,
+				AD7495C61C6D4D600089C404 /* NESLoader.m */,
+				AD7495C21C6D4D510089C404 /* NESLoader.h */,
+			);
+			path = NESLoader;
+			sourceTree = "<group>";
+		};
+		68C7B37D1971407D0067434B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD7495C41C6D4D600089C404 /* FRBNESLoader-Info.plist */,
+				68C7B37F1971407D0067434B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68C7B3761971407D0067434B /* NESLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C7B3851971407D0067434B /* Build configuration list for PBXNativeTarget "NESLoader" */;
+			buildPhases = (
+				68C7B3731971407D0067434B /* Sources */,
+				68C7B3741971407D0067434B /* Frameworks */,
+				68C7B3751971407D0067434B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESLoader;
+			productName = NESLoader;
+			productReference = 68C7B3771971407D0067434B /* NESLoader.hopperLoader */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C7B36F1971407D0067434B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = akiym.com;
+			};
+			buildConfigurationList = 68C7B3721971407D0067434B /* Build configuration list for PBXProject "NESLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68C7B36E1971407D0067434B;
+			productRefGroup = 68C7B3781971407D0067434B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68C7B3761971407D0067434B /* NESLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68C7B3751971407D0067434B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C7B3811971407D0067434B /* InfoPlist.strings in Resources */,
+				AD7495C71C6D4D600089C404 /* FRBNESLoader-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68C7B3731971407D0067434B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7495C81C6D4D600089C404 /* NESLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68C7B37F1971407D0067434B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C7B3801971407D0067434B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68C7B3831971407D0067434B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/HopperSDK",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68C7B3841971407D0067434B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/HopperSDK",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68C7B3861971407D0067434B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "NESLoader/FRBNESLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = NESLoader;
+				WRAPPER_EXTENSION = hopperLoader;
+			};
+			name = Debug;
+		};
+		68C7B3871971407D0067434B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "NESLoader/FRBNESLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = NESLoader;
+				WRAPPER_EXTENSION = hopperLoader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68C7B3721971407D0067434B /* Build configuration list for PBXProject "NESLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C7B3831971407D0067434B /* Debug */,
+				68C7B3841971407D0067434B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C7B3851971407D0067434B /* Build configuration list for PBXNativeTarget "NESLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C7B3861971407D0067434B /* Debug */,
+				68C7B3871971407D0067434B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68C7B36F1971407D0067434B /* Project object */;
+}
